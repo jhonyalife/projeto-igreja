@@ -1,0 +1,59 @@
+<div class="bg-red-950 bottom-0 w-full">
+  <nav
+    class="flex items-center justify-between max-w-screen-lg m-auto p-2 lg:px-8"
+    aria-label="Global"
+  >
+    <div class="flex lg:flex-1 items-center">
+      <a class="-m-1.5 p-1.5" href="/">
+        <img
+          class="w-8"
+          src="../../../assets/imgs/brasão luzia_corrigido.1 (2).png"
+          alt="Imagem igreja"
+      /></a>
+    </div>
+    <button
+    (click)="toggleSidebar()"
+    type="button"
+    class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+  >
+    <svg
+      class="h-6 w-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      aria-hidden="true"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+      ></path>
+    </svg>
+  </button>
+    <div class="hidden lg:flex lg:gap-x-12 uppercase text-white">
+      <a class="text-sm text-white transition-colors duration-300 hover:text-gray-400" href="/">Inicio</a
+      ><a class="text-sm text-white transition-colors duration-300 hover:text-gray-400" routerLink="/tempos-religiosos">Tempos Liturgicos</a
+      ><a class="text-sm text-white transition-colors duration-300 hover:text-gray-400" href="/">Sobre a Equipe</a>
+    </div>
+    <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+      <a
+        id="view_demo"
+        class="inline-flex items-center justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors duration-300 bg-gray-800 text-white hover:bg-gray-900 active:bg-gray-800 active:text-white/80 lg:block"
+        routerLink="/login"
+        >Login</a
+      >
+    </div>
+  </nav>
+
+  <!-- Menu lateral -->
+  <div *ngIf="showSidebar" class="fixed inset-0 bg-red-950 z-50 transform -translate-x-full transition-transform duration-300 lg:hidden" [ngClass]="{'hidden': !showSidebar}">
+    <div class="p-4">
+      <!-- Links do menu -->
+      <a class="block text-white hover:text-gray-400 mb-4" href="/">Inicio</a>
+      <a class="block text-white hover:text-gray-400 mb-4" routerLink="/tempos-religiosos">Tempos Liturgicos</a>
+      <a class="block text-white hover:text-gray-400" href="/">Sobre a Equipe</a>
+    </div>
+  </div>
+
+</div>

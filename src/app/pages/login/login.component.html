@@ -1,0 +1,38 @@
+<div class="h-screen flex items-center justify-center">
+  <form class="shadow-md rounded-md p-5 bg-white w-1/6">
+    <div class="py-4">
+      <h1 class="font-bold py-2 text-center">Login</h1>
+      <h3 class="text-slate-600 text-center">
+        Realize login na sua conta
+      </h3>
+    </div>
+
+    <mat-form-field apperance="fill" class="w-full">
+      <mat-label>Email:</mat-label>
+      <input matInput placeholder="Email">
+      <mat-icon matPrefix>email</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="w-full">
+      <mat-label>Senha:</mat-label>
+      <input
+      type="{{hide ? 'password' : 'text' }}"
+      matInput placeholder="Senha">
+      <mat-icon matPrefix>lock</mat-icon>
+      <mat-icon
+      (click)="hide = !hide"
+      matSuffix>
+      {{hide ? 'visibility_off' : 'visibility'}}
+      </mat-icon>
+    </mat-form-field>
+
+    <button type="submit" class="w-full border p-2 bg-red-800 m-auto hover:bg-red-900 rounded-full text-white font-bold  uppercase focus:outline-none focus:shadow-outline">Login</button>
+
+    <div class="my-5 text-center">
+      <span class="text-slate-600">
+        Não possui conta ainda ?
+      </span>
+      <a class="text-red-700">Clique aqui</a>
+    </div>
+  </form>
+</div>

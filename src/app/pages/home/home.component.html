@@ -1,0 +1,171 @@
+
+<div class="max-w-screen-lg m-auto">
+  <section class="p-2 w-full flex items-center justify-center h-200">
+      <img class="w-full" src="../../../assets/imgs/catecumenato.webp" alt="" />
+  </section>
+  <section class="p-2 w-full">
+    <div class="m-auto max-w-screen-lg p-4 rounded-3xl overflow-hidden shadow-xl mt-4">
+      <div class="flex flex-col gap-2">
+        <div class="flex items-center p-2 justify-center">
+          <h3 class="text-gray-700 font-extrabold p-1 uppercase">
+            Realize sua busca por filtros
+          </h3>
+          <svg
+            class="w-6 h-6"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M3.9 54.9C10.5 40.9 24.5 32 40 32H472c15.5 0 29.5 8.9 36.1 22.9s4.6 30.5-5.2 42.5L320 320.9V448c0 12.1-6.8 23.2-17.7 28.6s-23.8 4.3-33.5-3l-64-48c-8.1-6-12.8-15.5-12.8-25.6V320.9L9 97.3C-.7 85.4-2.8 68.8 3.9 54.9z"
+            />
+          </svg>
+        </div>
+        <form action="" class="flex gap-5 flex-col m-auto">
+          <div class="flex gap-4 m-auto justify-center items-center">
+            <div class="form-group">
+              <label for="tema" class="block text-gray-700 text-sm font-bold"
+                >Tema:</label
+              >
+              <input
+                type="text"
+                id="tema"
+                class="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-gray-400"
+                placeholder="Pesquise um tema..."
+              />
+            </div>
+            <div class="form-group">
+              <label
+                for="tempos-liturgicos"
+                class="block text-gray-700 text-sm font-bold"
+                >Tempo Liturgico:</label
+              >
+              <select
+                name="tempos_liturgicos"
+                id="tempos-liturgicos"
+                class="w-full px-3 cursor-pointer py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-gray-400"
+              >
+                <option value="">Escolha uma opção:</option>
+                <option value="pre-catecumenato">Pré-catecumenato</option>
+                <option value="catecumenato">Catecumenato</option>
+                <option value="purificacao">PURIFICAÇÃO</option>
+                <option value="iluminacao">ILUMINAÇÃO</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label
+                for="ano-liturgico"
+                class="block text-gray-700 text-sm font-bold"
+                >Ano Liturgico:</label
+              >
+              <select
+                name="ano-liturgico"
+                id="ano-liturgico"
+                class="w-full px-3 cursor-pointer py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-gray-400"
+              >
+                <option value="">Escolha uma opção:</option>
+                <option value="2024">2024</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label
+                for="dataInicio"
+                class="block text-gray-700 text-sm font-bold"
+                >Data Inicio:</label
+              >
+              <input
+                type="date"
+                id="dataInicio"
+                class="w-full px-3 py-2 border cursor-pointer border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-gray-400"
+                s
+              />
+            </div>
+            <div class="form-group">
+              <label for="datafim" class="block text-gray-700 text-sm font-bold"
+                >Data Fim:</label
+              >
+              <input
+                type="date"
+                id="datafim"
+                class="w-full px-3 py-2 border cursor-pointer border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-gray-400"
+              />
+            </div>
+          </div>
+          <button
+            type="submit"
+            class="bg-red-800 w-1/3 m-auto hover:bg-red-900 rounded-full text-white font-bold py-2 px-4 rounded-full uppercase focus:outline-none focus:shadow-outline"
+          >
+            Pesquisar
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="m-auto max-w-screen-lg py-5 mt-4">
+      <div class="mb-4">
+        <mat-accordion class="m-auto max-w-screen-lg py-5 mt-4" multi="true">
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                <h3
+                  class="w-full rounded-md p-2 text-gray-400 uppercase font-bold cursor-pointer"
+                >
+                  Pré-Catecumenato
+                </h3>
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <ul>
+              <li>Teste</li>
+              <li>teste</li>
+            </ul>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+      <div class="mb-4">
+        <mat-accordion class="m-auto max-w-screen-lg py-5 mt-4" multi="true">
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                <h3
+                  class="w-full rounded-md p-2 text-gray-400 uppercase font-bold cursor-pointer"
+                >
+                  Catecumenato
+                </h3>
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+      <div class="mb-4">
+        <mat-accordion class="m-auto max-w-screen-lg py-5 mt-4" multi="true">
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                <h3
+                  class="w-full rounded-md p-2 text-gray-400 uppercase font-bold cursor-pointer"
+                >
+                  Purificação e Iluminação
+                </h3>
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+      <div class="mb-4">
+        <mat-accordion class="m-auto max-w-screen-lg py-5 mt-4" multi="true">
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                <h3
+                  class="w-full rounded-md p-2 text-gray-400 uppercase font-bold cursor-pointer"
+                >
+                  Estagógia
+                </h3>
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+    </div>
+  </section>
+</div>
+

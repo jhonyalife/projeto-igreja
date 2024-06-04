@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* body{
+  background-color: #f1f1f1;
+} */
+
+.mat-h3, .mat-subtitle-1, .mat-typography .mat-h3, .mat-typography .mat-subtitle-1, .mat-typography h3 {
+  margin: 0 !important;
+}
+
+.mat-body p, .mat-body-2 p, .mat-typography .mat-body p, .mat-typography .mat-body-2 p, .mat-typography p {
+  margin: 0 !important;
+}
+
+
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(131 91 91 / 51%), 0 8px 10px -6px rgb(255 200 200) !important;
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color) !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #be363600), var(--tw-ring-shadow, 0 0 #be363600), var(--tw-shadow);.shadow-xl {
+    --tw-shadow: 0 20px 25px -5px rgb(131 91 91 / 51%), 0 8px 10px -6px rgb(255 200 200) !important;
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color) !important;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #be363600), var(--tw-ring-shadow, 0 0 #be363600), var(--tw-shadow) !important;
+  }
+}
