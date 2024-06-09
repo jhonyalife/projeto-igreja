@@ -12,11 +12,9 @@ import { NgClass, NgIf } from '@angular/common';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-  showSidebar = false;
+  sidebarOpen = false;
 
   toggleSidebar() {
-    console.log('Toggle sidebar!');
-    this.showSidebar = !this.showSidebar;
-    console.log('showSidebar:', this.showSidebar);
+    this.sidebarOpen = !this.sidebarOpen;
   }
 }

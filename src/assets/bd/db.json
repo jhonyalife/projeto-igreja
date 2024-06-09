@@ -1,0 +1,68 @@
+{
+  "precatecumenato": {
+    "nome": "Pré-Catecumanato / Querigma",
+    "descricao": "O pré-catecumenato ou querigma é o tempo da evangelização em que, com firmeza e confiança, anuncia-se o Deus vivo e Jesus Cristo, enviado por Ele a salvação de todos, a fim de que os catecúmenos e o catequizandos, cujo coração é aberto pelo Espírito Santo, creiam e se convertam livremente ao senhor (RICA, nº 9). Sendo assim, o pré-catecumenato tem por objetivo a adesão a Jesus Cristo.",
+    "temas": [
+      {
+        "tema": "Reunião com os pais e acolhimento das crianças / Apresentação da coordenação e dos catequistas e o itinerário Catequetico.",
+        "datainicio": "01/06/2024",
+        "datafim": "02/06/2024",
+        "ano": "2024",
+        "rito": false
+      },
+      {
+        "tema": "Vamos Caminhar Juntos (Jo 13, 34-35)",
+        "datainicio": "08/06/2024",
+        "datafim": "09/06/2024",
+        "ano": "2024",
+        "rito": false
+      },
+      {
+        "tema": "Jesus acolhe as crianças  (Mc 9, 33- 37; Mt 18, 1- 5;  Lc 9, 46 -48)",
+        "datainicio": "15/06/2024",
+        "datafim": "16/06/2024",
+        "ano": "2024",
+        "rito": false
+      },
+      {
+        "tema": "Uma criança enviada por Deus (Lc 1, 57-66.80)  Natividade de São João Batista",
+        "datainicio": "22/06/2024",
+        "datafim": "23/06/2024",
+        "ano": "2024",
+        "rito": false
+      },
+      {
+        "tema": "São Pedro e São Paulo: Colunas da Igreja (Mt. 16, 13-19) ",
+        "datainicio": "29/06/2024",
+        "datafim": "30/06/2024",
+        "ano": "2024",
+        "rito": true
+      },
+      {
+        "tema": "Jesus, as crianças e o Reino de Deus (Mc 10, 13 -16)",
+        "datainicio": "06/06/2024",
+        "datafim": "30/06/2024",
+        "ano": "2024",
+        "rito": true
+      }
+    ]
+  },
+  "catecumanato": {
+    "nome": "Catecumanato",
+    "descricao": "O catecumenato é o tempo mais longo a fim de garantir uma sincera conversão dos catecúmenos e o amadurecimento da fé. Por isso, requer uma catequese mais intensa e organizada, para desenvolver as dimensões doutrinal, moral e litúrgica.",
+    "temas": [
+    ]
+  },
+  "purificacao": {
+    "nome": "Purificação e Iluminação",
+    "descricao": "A Purificação e iluminação é o terceiro tempo. Nele, o catecúmeno e catequizando, já introduzido na experiencia cristã e desejando tornar-se discípulo, são eleitos pela comunidade eclesial para a iniciação sacramental.",
+    "temas": [
+    ]
+  },
+  "mistagogia": {
+    "nome": "Mistagogia",
+    "descricao": "A Mistagogia é o tempo litúrgico por excelencia. Tem por objetivo buscar um conhecimento mais profundo dos mistérios, a partir dos sacramentos celebrados, ou seja, das catequeses mistagógicas.",
+    "temas": [
+    ]
+  }
+}

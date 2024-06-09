@@ -4,6 +4,8 @@ import { RouterOutlet } from '@angular/router';
 import { MatButtonModule} from '@angular/material/button';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { HomeComponent } from './pages/home/home.component';
 
 @Component({
   selector: 'app-root',
